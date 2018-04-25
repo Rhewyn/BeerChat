@@ -8,6 +8,7 @@ class Input extends Component {
         return (
             <ScrollView>
                 <TextInput
+                    backgroundColor={'#7d62d9'}
                     textFocusColor={'#7d62d9'}
                     textBlurColor={'#000'}
                     highlightColor={'#7d62d9'}
