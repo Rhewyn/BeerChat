@@ -66,8 +66,8 @@ class Login extends Component {
                         style={{width: 150, height: 150}}
                         source={require('../img/icon_sb_512.png')}
                     />
-                    <Text style={styles.logoTextTitle}>SendBird</Text>
-                    <Text style={styles.logoTextSubTitle}>React Native</Text>
+                  <Text style={styles.logoTextTitle}>BeerChat</Text>
+                    <Text style={styles.logoTextSubTitle}>made by drunks fer drunks</Text>
                 </View>
 
                 <View style={styles.inputViewStyle}>
@@ -104,7 +104,7 @@ class Login extends Component {
                 <Text style={styles.errorTextStyle}>{this.props.error}</Text>
 
                 <View style={[styles.inputViewStyle, styles.footerViewStyle]}>
-                    <Text style={styles.footerTextStyle}>Sample UI v2.1.0 / SDK v.3.0.54</Text>
+                    <Text style={styles.footerTextStyle}>Talk to strangers at a bar</Text>
                 </View>
             </View>
         );
@@ -120,7 +120,7 @@ export default connect(mapStateToProps, { initLogin, sendbirdLogin })(Login);
 
 const styles = {
     containerStyle: {
-        backgroundColor: '#937760',
+        backgroundColor: '#fff',
         flex: 1
     },
     logoViewStyle: {
@@ -128,12 +128,12 @@ const styles = {
         alignItems: 'center'
     },
     logoTextTitle: {
-        color: '#7d62d9',
+        color: '#000000',
         fontSize: 30,
         fontWeight: '600'
     },
     logoTextSubTitle: {
-        color: '#7d62d9',
+        color: '#000000',
         fontSize: 13,
         fontWeight: '500'
     },
@@ -157,7 +157,7 @@ const styles = {
     },
     footerTextStyle: {
         alignSelf: 'center',
-        fontSize: 12,
-        color: '#8e8e8e'
+        fontSize: 14,
+        color: '#000000'
     }
 }

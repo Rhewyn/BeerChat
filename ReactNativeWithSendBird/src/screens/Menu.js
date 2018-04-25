@@ -7,7 +7,7 @@ import { Button, HR, Spinner } from '../components';
 
 class Menu extends Component {
     static navigationOptions = {
-        title: 'Sendbird'
+        title: 'BeerChat'
     };
 
     constructor(props) {
@@ -112,7 +112,7 @@ export default connect(mapStateToProps, { sendbirdLogout, initMenu })(Menu);
 
 const styles = {
     containerViewStyle: {
-        backgroundColor: '#008080', 
+        backgroundColor: '#008080',
         flex: 1
     },
     menuViewStyle: {

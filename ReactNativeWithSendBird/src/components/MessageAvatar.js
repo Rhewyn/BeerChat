@@ -27,7 +27,7 @@ const MessageAvatar = (props) => {
 
 const styles = {
     viewStyle: {
-        backgroundColor: '#58fccl',
+        backgroundColor: '#00ff1d',
         marginRight: 8,
         width: 34,
         height: 34
